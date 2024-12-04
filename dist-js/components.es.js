@@ -6922,3 +6922,4 @@ function _g(y, k) {
 export {
   _g as StackedBarChart
 };
+//# sourceMappingURL=components.es.js.map

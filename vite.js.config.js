@@ -7,9 +7,11 @@ export default defineConfig({
         lib: {
             entry: resolve(__dirname, 'dist/index.js'),
             name: 'Components',
-            fileName: 'components',
+            formats:['umd','es'],
+            fileName: (format) => `components.${format}.js`,
         },
         outDir: 'dist-js',
+        sourcemap: true,
     },
     plugins: [
         svelte(),
