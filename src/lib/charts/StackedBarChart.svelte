@@ -1,3 +1,5 @@
+<svelte:options accessors={true} />
+
 <script>
     import Highcharts from "highcharts";
     import {wideToTidy, transformToSeriesFormat,DateParser } from "../utils/helpers.js"
